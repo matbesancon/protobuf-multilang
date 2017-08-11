@@ -34,5 +34,3 @@ ENV PATH $PATH:$GOPATH/bin
 RUN go get -u github.com/golang/protobuf/proto github.com/golang/protobuf/protoc-gen-go
 
 RUN mkdir -p /src/proto
-
-ENTRYPOINT ["protoc"]
